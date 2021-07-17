@@ -1,3 +1,9 @@
+body {
+    font-family: "Sofia", sans-serif;
+  }
+
+
+
 .center-text {
     text-align: center;
    
@@ -5,9 +11,50 @@
 }
 
 .center-box {
-    text-align: center;
+    
     margin: auto;
-   width: 70%;
+   width: 100%;
+   text-align: center;
+}
 
+textarea {
    
+     box-sizing: border-box;
+    display: block;
+    width: 60%;
+    min-height: 20vh;
+    margin: auto;
+    font-size: large;
+    font-family: inherit;
+}
+
+button {
+    background-color: #F9ED69;
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: inherit;
+    font-size: large;
+}
+#translate-output {
+    box-sizing: border-box;
+    width: 60%;
+    min-height: 10vh;
+    max-height: 20vh;
+    margin: auto;
+    overflow:scroll;
+    border: 1px solid black;
+}
+
+.header{
+    display: block;
+    background-color: #F9ED69;
+    padding: 1rem;
+    font-size: larger;
+}
+
+.button:hover {
+    background-color: #6A2C70;
+    color: white;
+    
 }
