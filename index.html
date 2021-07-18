@@ -7,7 +7,7 @@
     <title>Banana Translation</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
     <link href="./style.css" rel="stylesheet"/>
-      <script src="main.js" type="text/javascript"> </script>
+     
 </head>
 <body>
     
@@ -17,13 +17,14 @@
 <br>
 <div class="center-box">
 
-    <textarea placeholder = " Put your message here which you want to convert to banana language"></textarea>
+    <textarea id="txt-input" placeholder = " Put your message here which you want to convert to banana language"></textarea>
     <div class="center-text">
-        <button class="button">Translate to Banana Language</button>
+        <button id="btn-translate" class="button">Translate to Banana Language</button>
+        <script src="./main.js" type="text/javascript"> </script>
         </div>
     <div>Translation will come here 👇</div>
 
-        <div id="translate-output" style="padding: 1rem; font-size: large;"></div>
+        <div id="txt-output" ></div>
 </div>
 <br>
 
