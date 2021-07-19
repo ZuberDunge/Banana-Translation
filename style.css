@@ -73,7 +73,7 @@ button {
     color: #191F42;
     padding: 0.75rem 1rem;
     text-align: center;
-    position: fixed;
+  
     left: 0;
     bottom: 0;
     width: 100%;
@@ -81,15 +81,4 @@ button {
 
 }
 
-.footer .link {
-    color: #191F42;
-}
 
-.footer ul {
-    padding-inline-start: 0px;
-}
-
-.footer-header {
-    font-weight: bold;
-    font-size: large;
-}
