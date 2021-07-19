@@ -1,5 +1,5 @@
 body {
-    font-family: "Sofia", sans-serif;
+    font-family: "Gaegu", sans-serif;
   }
 
 
@@ -49,8 +49,10 @@ button {
 .header{
     display: block;
     background-color: #F9ED69;
-    padding: 1rem;
+    font-family: "Sofia", sans-serif;
+    padding: 16px;
     font-size: larger;
+    
 }
 
 .button:hover {
