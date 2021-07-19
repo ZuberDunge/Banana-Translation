@@ -66,8 +66,8 @@ button {
     
 }
 
-/**Footer**/
-/* .footer {
+
+.footer {
     background-color: #F9ED69;
     color: #191F42;
     padding: 0.75rem 1rem;
@@ -78,10 +78,10 @@ button {
     width: 100%;
     font-family: 'Montserrat', sans-serif;
 
-} */
+}
 
 
-.footer {
+/* .footer {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -89,4 +89,4 @@ button {
     padding: 1rem;
     background-color: #F9ED69;
     text-align: center;
-}
+} */
