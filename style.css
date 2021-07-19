@@ -20,7 +20,7 @@ body {
 }
 
 textarea {
-   
+    text-align: center;
      box-sizing: border-box;
     display: block;
     width: 90%;
