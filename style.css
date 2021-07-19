@@ -21,7 +21,7 @@ textarea {
    
      box-sizing: border-box;
     display: block;
-    width: 60%;
+    width: 70%;
     min-height: 20vh;
     margin: auto;
     font-size: large;
@@ -38,10 +38,11 @@ button {
 }
 #txt-output {
     box-sizing: border-box;
-    width: 60%;
+    width: 70%;
     min-height: 10vh;
     max-height: 20vh;
     margin: auto;
+
     overflow:scroll;
     border: 1px solid black;
 }
@@ -72,8 +73,8 @@ button {
     background-color: #F9ED69;
     color: #191F42;
     padding: 0.75rem 1rem;
-    text-align: center;
-  
+    text-align: center;  
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
