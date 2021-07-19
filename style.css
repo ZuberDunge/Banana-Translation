@@ -67,7 +67,7 @@ button {
 }
 
 
-.footer {
+footer {
     background-color: #F9ED69;
     color: #191F42;
     padding: 0.75rem 1rem;
@@ -76,12 +76,15 @@ button {
     left: 0;
     bottom: 0;
     width: 100%;
-    font-family: 'Montserrat', sans-serif;
+    
 
 }
-.footer p {
+footer p {
     max-width: var(--width-break);
+    font-family: Gaegu;
+    padding-right: 25px;
     margin: auto;
+    
 }
 
 /* .footer {
