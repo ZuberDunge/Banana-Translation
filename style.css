@@ -79,7 +79,7 @@ button {
     font-family: 'Montserrat', sans-serif;
 
 }
-footer p {
+.footer p {
     max-width: var(--width-break);
     margin: auto;
 }
