@@ -79,7 +79,7 @@ footer {
     
 
 }
-footer p {
+.footer-text{
     max-width: var(--width-break);
     font-family: Gaegu;
     padding-right: 25px;
