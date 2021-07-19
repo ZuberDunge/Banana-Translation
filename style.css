@@ -70,19 +70,18 @@ button {
 footer {
     background-color: #F9ED69;
     color: #191F42;
-    padding: 0.75rem 1rem;
+   padding-top: 15px;
+   padding-bottom: 15px;
     text-align: center;  
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
     
+    width: 100%;
+    margin: auto;
 
 }
 .footer-text{
     max-width: var(--width-break);
     font-family: Gaegu;
-    padding-right: 25px;
+    
     margin: auto;
     
 }
