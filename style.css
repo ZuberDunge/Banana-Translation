@@ -2,7 +2,9 @@ body {
     font-family: "Gaegu", sans-serif;
   }
 
-
+:root{
+    --width-break:600px
+}
 
 .center-text {
     text-align: center;
@@ -21,11 +23,12 @@ textarea {
    
      box-sizing: border-box;
     display: block;
-    width: 70%;
+    width: 90%;
     min-height: 20vh;
     margin: auto;
     font-size: large;
     font-family: inherit;
+    max-width: var(--width-break);
 }
 
 button {
@@ -38,11 +41,11 @@ button {
 }
 #txt-output {
     box-sizing: border-box;
-    width: 70%;
+    width: 90%;
     min-height: 10vh;
     max-height: 20vh;
     margin: auto;
-
+    max-width: var(--width-break);
     overflow:scroll;
     border: 1px solid black;
 }
@@ -62,11 +65,6 @@ button {
     color: white;
     
 }
-
-
-
-
-
 
 /**Footer**/
 .footer {
