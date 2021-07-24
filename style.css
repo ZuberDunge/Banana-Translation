@@ -1,5 +1,7 @@
 body {
     font-family: "Gaegu", sans-serif;
+    background-image: url(./bg-img.jpg);
+   background-size: 100%;
   }
 
 :root{
@@ -29,6 +31,8 @@ textarea {
     font-size: large;
     font-family: inherit;
     max-width: var(--width-break);
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
 button {
@@ -46,15 +50,17 @@ button {
     max-height: 30vh;
     margin: auto;
     max-width: var(--width-break);
-    overflow:scroll;
+   
     border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
 }
 
 .header{
     text-align: center;
     background-color: #F9ED69;
     font-family: "Sofia", sans-serif;
-    padding: 16px;
+    padding: 8px;
     color: #191F42;
     padding-bottom: 4px;
     
@@ -70,12 +76,12 @@ button {
 footer {
     background-color: #F9ED69;
     color: #191F42;
-   padding-top: 15px;
-   padding-bottom: 15px;
+   padding: 15px;
+  
     text-align: center;  
     
-    width: 100%;
-    margin: auto;
+    
+   
 
 }
 .footer-text{
@@ -85,6 +91,16 @@ footer {
     margin: auto;
     
 }
+
+/* .new-style{
+   background-color: aqua;  
+   max-width: var(--width-break); 
+   margin: auto; 
+   text-align: center; 
+   width: 90%; 
+   border-radius: 10px; 
+   padding: 36px;
+} */
 
 /* .footer {
     position: fixed;
