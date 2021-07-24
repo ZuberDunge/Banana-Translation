@@ -1,7 +1,5 @@
 body {
     font-family: "Gaegu", sans-serif;
-    background-image: url(./bg-img.jpg);
-   background-size: 100%;
   }
 
 :root{
@@ -60,7 +58,7 @@ button {
     text-align: center;
     background-color: #F9ED69;
     font-family: "Sofia", sans-serif;
-    padding: 8px;
+    padding: 16px;
     color: #191F42;
     padding-bottom: 4px;
     
@@ -76,12 +74,12 @@ button {
 footer {
     background-color: #F9ED69;
     color: #191F42;
-   padding: 15px;
-  
+   padding-top: 15px;
+   padding-bottom: 150px;
     text-align: center;  
     
-    
-   
+    width: 100%;
+    margin: auto;
 
 }
 .footer-text{
