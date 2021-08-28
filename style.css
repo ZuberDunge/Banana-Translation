@@ -33,6 +33,13 @@ textarea {
     border: 1px solid black;
 }
 
+#error-output{
+margin: 2rem;
+text-align: center;
+font-size: 1.5rem;
+
+
+}
 button {
     background-color: #F9ED69;
  border-radius: 10px;

@@ -20,7 +20,7 @@ function clickEventHandler() {
             var translatedTxt = json.contents.translated;
             txtOutput.innerText = translatedTxt;
         })
-        .catch(() => errorOutput.innerText ="some error occured")
+        .catch(() => errorOutput.innerText ="sorry, some error occured! #429")
     
 
 };
