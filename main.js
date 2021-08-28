@@ -1,6 +1,7 @@
 var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
 var txtOutput = document.querySelector("#txt-output");
+var errorOutput = document.querySelector("#error-output");
 var serverURL = "https://api.funtranslations.com/translate/minion.json"
 
 function getTranslationURL(text) {
@@ -19,7 +20,7 @@ function clickEventHandler() {
             var translatedTxt = json.contents.translated;
             txtOutput.innerText = translatedTxt;
         })
-        .catch(() => alert("some error occured"))
+        .catch(() => errorOutput.innerText ="some error occured")
     
 
 };
